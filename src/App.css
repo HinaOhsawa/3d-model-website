@@ -1,0 +1,26 @@
+canvas {
+  width: 100%;
+  height: 100vh;
+  background: rgb(235, 144, 255);
+  background: linear-gradient(
+    164deg,
+    rgba(235, 144, 255, 1) 0%,
+    rgba(100, 161, 255, 1) 100%
+  );
+}
+
+.mainContent {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.mainContent h3 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.mainContent p {
+  font-size: 1.5rem;
+}
